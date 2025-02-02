@@ -95,7 +95,7 @@ Your app will now run at `http://localhost:3000/` 🎉
 
 | Prompt | Generated Image |
 |--------|----------------|
-| "Two men fighting" | ![Image1](https://via.placeholder.com/200) |
+| "Two men fighting" | <img width="417" alt="Image" src="https://github.com/user-attachments/assets/c650f3cc-f3ea-48c5-b65d-a057dfebe39b" /> |
 
 
 ---
