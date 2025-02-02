@@ -76,7 +76,7 @@ npm start
 
 Your app will now run at `http://localhost:3000/` 🎉  
 
-![Running App](https://via.placeholder.com/800x400?text=App+Running)  
+  
 
 ---
 
@@ -85,9 +85,7 @@ Your app will now run at `http://localhost:3000/` 🎉
 1️⃣ Enter a **prompt** in the text box  
 2️⃣ Click on **Generate**  
 3️⃣ Wait for AI to create your image  
-4️⃣ Download and share your masterpiece! 🎨  
-
-![Usage](https://via.placeholder.com/800x400?text=How+to+Use)  
+4️⃣ Download and share your masterpiece! 🎨   
 
 ---
 
@@ -97,8 +95,8 @@ Your app will now run at `http://localhost:3000/` 🎉
 
 | Prompt | Generated Image |
 |--------|----------------|
-| "A futuristic city at sunset" | ![Image1](https://via.placeholder.com/200) |
-| "A dragon flying over mountains" | ![Image2](https://via.placeholder.com/200) |
+| "Two men fighting" | ![Image1](https://via.placeholder.com/200) |
+
 
 ---
 
