@@ -33,7 +33,6 @@ Follow these steps to run the project on your local machine!
 
 🔹 **Your API Key is required to access the model online**  
 
-![Lightning AI Setup](https://via.placeholder.com/800x400?text=Lightning+AI+Setup)  
 
 ---
 
