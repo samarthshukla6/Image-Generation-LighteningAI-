@@ -15,7 +15,7 @@ export default function Home() {
   };
 
   const callApi = async () => {
-    const url = '';
+    const url = 'your-api-key-here';
     const data = { prompt: inputValue };2
 
     setIsLoading(true);
