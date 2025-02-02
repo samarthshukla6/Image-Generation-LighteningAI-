@@ -1,35 +1,142 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+---
 
-## Getting Started
+# 🎨 AI-Powered Text-to-Image Generator 🚀   
 
-First, run the development server:
+Transform your imagination into reality with our AI-powered text-to-image generator! 🖌️✨ This project utilizes **Stable Diffusion** and is powered by **Lightning AI** to generate stunning images from textual prompts.
+
+<img width="1584" alt="Image" src="https://github.com/user-attachments/assets/a202968a-2dbd-458e-a572-eb9eeebcced0" />  
+
+---
+
+## 🌟 Features  
+
+✅ **Stable Diffusion-Powered** – Generate high-quality images using AI  
+✅ **Lightning AI Integration** – Seamless deployment with API access  
+✅ **Custom Prompts** – Create unique images based on your descriptions  
+✅ **Fast & Efficient** – Optimized for performance and quick rendering  
+✅ **React Frontend** – Modern UI for easy interaction  
+
+---
+
+
+## 🛠️ Setup Guide  
+
+Follow these steps to run the project on your local machine!  
+
+### **1️⃣ Set Up Lightning AI & Generate API Key**  
+
+1️⃣ Go to [Lightning AI](https://lightning.ai/) and **Sign Up / Log In**  
+2️⃣ Navigate to the **Models** section and find **Stable Diffusion**  
+3️⃣ Deploy the **Stable Diffusion model** on your account  
+4️⃣ Go to **API & Keys** in your dashboard  
+5️⃣ Click **Generate API Key** and copy it for later use  
+
+🔹 **Your API Key is required to access the model online**  
+
+![Lightning AI Setup](https://via.placeholder.com/800x400?text=Lightning+AI+Setup)  
+
+---
+
+### **2️⃣ Clone the Repository**  
 
 ```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
+git clone  https://github.com/samarthshukla6/Image-Generation-LighteningAI-.git
+cd Stable_Diffusion
 ```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+---
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+### **3️⃣ Install Dependencies**  
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+Make sure you have **Node.js** installed, then run:  
 
-## Learn More
+```bash
+npm install
+```
 
-To learn more about Next.js, take a look at the following resources:
+---
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+### **4️⃣ Configure API Key**  
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
+Create a `.env` file in the root folder and add your **Lightning AI Stable Diffusion API Key**:  
 
-## Deploy on Vercel
+```env
+REACT_APP_LIGHTNING_AI_API_KEY=your_api_key_here
+```
+
+🔹 **Replace `your_api_key_here` with the API key you generated on Lightning AI.**  
+
+---
+
+### **5️⃣ Run the App**  
+
+```bash
+npm start
+```
+
+Your app will now run at `http://localhost:3000/` 🎉  
+
+![Running App](https://via.placeholder.com/800x400?text=App+Running)  
+
+---
+
+## 🔥 Usage  
+
+1️⃣ Enter a **prompt** in the text box  
+2️⃣ Click on **Generate**  
+3️⃣ Wait for AI to create your image  
+4️⃣ Download and share your masterpiece! 🎨  
+
+![Usage](https://via.placeholder.com/800x400?text=How+to+Use)  
+
+---
+
+## 📸 Sample Outputs  
+
+✨ Some AI-generated images using our app:  
+
+| Prompt | Generated Image |
+|--------|----------------|
+| "A futuristic city at sunset" | ![Image1](https://via.placeholder.com/200) |
+| "A dragon flying over mountains" | ![Image2](https://via.placeholder.com/200) |
+
+---
+
+## 💡 Future Improvements  
+
+🔹 Enhance image quality using AI upscaling  
+🔹 Add more customization options (size, style, filters)  
+🔹 Implement user authentication for saved images  
+🔹 Allow batch image generation  
+
+---
+
+## 🤝 Contributing  
+
+Want to improve this project? Contributions are welcome!  
+
+1️⃣ **Fork the repo**  
+2️⃣ **Create a new branch** (`feature-xyz`)  
+3️⃣ **Commit your changes**  
+4️⃣ **Push and create a pull request**  
+
+---
+
+## 🛡️ License  
+
+This project is licensed under the **MIT License**.  
+
+---
+
+## 📩 Contact  
+
+👤 **Your Name**  
+📧 Email: [your-email@example.com](mailto:your-email@example.com)  
+🐙 GitHub: [yourusername](https://github.com/yourusername)  
+
+---
+
+This **README.md** makes your project look polished and user-friendly! 🚀🔥 Let me know if you need any modifications. 😊
 
 The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
 
